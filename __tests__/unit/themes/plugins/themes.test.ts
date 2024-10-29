@@ -4,6 +4,6 @@ import { darkTheme, lightTheme } from '@/src/themes';
 
 describe('TW Theme objects test', () => {
   test('It works', () => {
-    expect(darkTheme).toMatchStructure(lightTheme);
+    expect(lightTheme).toMatchStructure(darkTheme);
   });
 });

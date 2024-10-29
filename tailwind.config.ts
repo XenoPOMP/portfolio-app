@@ -28,12 +28,12 @@ const tailwindConfig: Config = {
     CustomClassesPlugin(),
     tailwindThemer({
       defaultTheme: {
-        extend: lightTheme,
+        extend: darkTheme,
       },
       themes: [
         {
-          name: 'dark',
-          extend: darkTheme,
+          name: 'light',
+          extend: lightTheme,
         },
       ],
     }),

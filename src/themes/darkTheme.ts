@@ -6,7 +6,7 @@ type Theme = Defined<Defined<Config['theme']>['extend']>;
 /**
  * This theme is **default**.
  */
-export const lightTheme = {
+export const darkTheme = {
   colors: {
     primary: {
       bg: '#FFF',
