@@ -1,7 +1,14 @@
 import type { VariableFC } from '@xenopomp/advanced-types';
 import cn from 'classnames';
 
-const Button: VariableFC<'button'> = ({ className, children, ...props }) => {
+import type { ButtonVariants } from './Button.variants.ts';
+
+const Button: VariableFC<'button', ButtonVariants> = ({
+  className,
+  children,
+  variant,
+  ...props
+}) => {
   return (
     <button
       type='button'
