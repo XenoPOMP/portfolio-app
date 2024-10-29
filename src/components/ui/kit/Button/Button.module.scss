@@ -1,6 +1,10 @@
 button.uiButton {
   &.plastic {
-    // No empty!!!
+    @apply py-[1.1rem] px-[2rem] rounded-[.7rem];
+
+    font-weight: 500;
+    border: 1px solid #6971A266;
+    background: linear-gradient(90deg, #161A31 3.4%, #06091F 100%);
   }
 
   &.social {

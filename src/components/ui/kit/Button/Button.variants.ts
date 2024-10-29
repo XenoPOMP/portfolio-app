@@ -10,6 +10,10 @@ export const buttonVariants = cva(styles.uiButton, {
       social: cn(styles.social),
     },
   },
+
+  defaultVariants: {
+    variant: 'plastic',
+  },
 });
 
 export type ButtonVariants = VariantProps<typeof buttonVariants>;
