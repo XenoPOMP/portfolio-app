@@ -1,3 +1,4 @@
+import typographyPlugin from '@tailwindcss/typography';
 import type { Config } from 'tailwindcss';
 import tailwindThemer from 'tailwindcss-themer';
 
@@ -37,6 +38,7 @@ const tailwindConfig: Config = {
         },
       ],
     }),
+    typographyPlugin,
   ],
 };
 
