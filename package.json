@@ -1,9 +1,9 @@
 {
-  "name": "next-template",
-  "version": "5.0.0",
+  "name": "portfolio-app",
+  "version": "0.0.0",
   "private": true,
   "author": "XenoPOMP",
-  "repository": "https://github.com/%ACTOR%/%NAME%",
+  "repository": "https://github.com/XenoPOMP/portfolio-app",
   "engines": {
     "node": "^20 || >=22",
     "yarn": ">=1.17.3"
