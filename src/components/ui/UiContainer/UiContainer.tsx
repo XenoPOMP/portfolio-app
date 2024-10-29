@@ -16,8 +16,8 @@ const UiContainer: FC<UiContainerNestedProps> = ({
   className,
   id,
   style,
-  margin = '2rem',
-  maxWidth = '1680px',
+  margin = 'calc(var(--p-level-1) * 1.6)',
+  maxWidth = '1240px',
   as = 'section',
 }) => {
   const Component = as;
