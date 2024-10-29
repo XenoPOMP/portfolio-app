@@ -9,8 +9,8 @@ type Theme = Defined<Defined<Config['theme']>['extend']>;
 export const darkTheme = {
   colors: {
     primary: {
-      bg: '#FFF',
-      font: '#000',
+      bg: '#000319',
+      font: '#FFF',
     },
   },
 } satisfies Theme;
