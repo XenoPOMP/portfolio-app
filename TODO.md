@@ -1,5 +1,5 @@
 # Implement UI kit
 
 - [ ] Button
-  - [ ] Plastic
+  - [x] Plastic
   - [ ] Social

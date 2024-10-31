@@ -5,9 +5,12 @@ import Link from 'next/link';
 
 import { Button } from '@/src/components/ui/kit';
 
-const ExternalLink: VariableFC<typeof Link> = ({
+import type { ExternalLinkProps } from './ExternalLink.props';
+
+const ExternalLink: VariableFC<typeof Link, ExternalLinkProps> = ({
   children,
   href,
+  noIcon,
   ...props
 }) => {
   return (
@@ -20,7 +23,7 @@ const ExternalLink: VariableFC<typeof Link> = ({
         className={cn('flex-center gap-[.5em]')}
       >
         {children}
-        <MoveUpRight size='1em' />
+        {!noIcon && <MoveUpRight size='1em' />}
       </Button>
     </Link>
   );
